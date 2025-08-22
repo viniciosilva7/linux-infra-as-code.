@@ -42,3 +42,35 @@ Instale o `openssl` (caso necessário):
 sudo apt-get update
 sudo apt-get install openssl -y
 ```
+
+## ▶️ Como executar
+
+1. **Clone este repositório:**
+
+```bash
+git clone https://github.com/viniciosilva7/linux-infra-as-code.git
+cd linux-infra-as-code
+```
+
+2. **Dê permissão de execução ao script:**
+
+```bash
+chmod +x iac.sh
+```
+
+3. **Execute o script como root:**
+
+```bash
+sudo ./iac.sh
+```
+
+## 🔒 Segurança
+
+- Cada usuário é criado com senha inicial padrão, que pode ser alterada no script.
+- Recomenda-se alterar as senhas após o primeiro login.
+- Diretórios restritos só podem ser acessados pelos respectivos grupos.
+
+## ✨ Autor
+
+Desenvolvido por **Vinicios Ruan Silva**
+📧 Contato: vinicios.link7@gmail.com
